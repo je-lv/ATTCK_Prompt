@@ -39,8 +39,12 @@ This repo includes a 'description' cleaned file.
 ```bash
 pip3 prompt_toolkit==3.0.8
 
-chmod +x
+chmod +x attck_prompt.py
 
 ./attck_prompt.py
 ```
+
+To close the prompt, CTRL+Shift+C from main section or typing 'quit' when in search_mode or random_mode.
+
+When in search_mode or random_mode, CTRL+Shift+C will make the user go back to the main section (mode switching).
 
