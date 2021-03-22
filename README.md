@@ -8,7 +8,7 @@ Simple cli app to search and learn MITRE ATT&CK's techinques.
 
 ## Search Mode
 
-Searchs techniques names from user supplied input. Uses a fuzzy match completer to help the user find the desired technique faster.
+Searches techniques names from user supplied input. Uses a fuzzy match completer to help the user find the desired technique faster.
 
 ![Technique Search suggestions](/imgs/search_technique.png)
 
