@@ -56,7 +56,7 @@ def get_attck_data():
             if 'type' in item:
                 if 'attack-pattern' in item['type']:
                     try:
-                        descr = re.sub(r"(<code>|</code>)|[\[]", '', item['description'])
+                        descr = re.sub(r"(<code>|</code>)|[\[]|<br>|&lt;|&gt;", '', item['description'])
                         descr = re.sub(r"[\]]", ' ', descr)
                         techniques[item['name']] = (item['external_references'][0]['external_id'], descr)
                     except:

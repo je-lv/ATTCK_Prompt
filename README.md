@@ -37,7 +37,7 @@ This repo includes a 'description' cleaned file.
 **Works only with python3**
 
 ```bash
-pip3 prompt_toolkit==3.0.8
+pip3 install prompt_toolkit==3.0.8
 
 chmod +x attck_prompt.py
 
